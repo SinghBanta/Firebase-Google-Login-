@@ -1,0 +1,45 @@
+[debug] [2026-02-02T16:21:00.444Z] ----------------------------------------------------------------------
+[debug] [2026-02-02T16:21:00.448Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Acer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-02-02T16:21:00.449Z] CLI Version:   15.5.1
+[debug] [2026-02-02T16:21:00.449Z] Platform:      win32
+[debug] [2026-02-02T16:21:00.449Z] Node Version:  v22.14.0
+[debug] [2026-02-02T16:21:00.450Z] Time:          Mon Feb 02 2026 21:51:00 GMT+0530 (India Standard Time)
+[debug] [2026-02-02T16:21:00.450Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Acer\Desktop\taskflow-onboarding
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-02-02T16:21:18.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-02T16:21:18.919Z] > authorizing via signed-in user (singhbanta84@gmail.com)
+[debug] [2026-02-02T16:21:18.925Z] Checked if tokens are valid: true, expires at: 1770052705597
+[debug] [2026-02-02T16:21:18.925Z] Checked if tokens are valid: true, expires at: 1770052705597
+[debug] [2026-02-02T16:21:18.926Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/htmlpage-7fe15 [none]
+[debug] [2026-02-02T16:21:19.468Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/htmlpage-7fe15 200
+[debug] [2026-02-02T16:21:19.469Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/htmlpage-7fe15 {"projectId":"htmlpage-7fe15","projectNumber":"24497759362","displayName":"HTMLPage","name":"projects/htmlpage-7fe15","resources":{"hostingSite":"htmlpage-7fe15"},"state":"ACTIVE","etag":"1_3a4cc0e7-160f-44e4-a40c-aaed292fc82a"}
+[info] i  Using project htmlpage-7fe15 (HTMLPage) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-02-02T16:21:19.475Z] Checked if tokens are valid: true, expires at: 1770052705597
+[debug] [2026-02-02T16:21:19.475Z] Checked if tokens are valid: true, expires at: 1770052705597
+[debug] [2026-02-02T16:21:19.476Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/htmlpage-7fe15 [none]
+[debug] [2026-02-02T16:21:20.019Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/htmlpage-7fe15 200
+[debug] [2026-02-02T16:21:20.019Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/htmlpage-7fe15 {"projectId":"htmlpage-7fe15","projectNumber":"24497759362","displayName":"HTMLPage","name":"projects/htmlpage-7fe15","resources":{"hostingSite":"htmlpage-7fe15"},"state":"ACTIVE","etag":"1_3a4cc0e7-160f-44e4-a40c-aaed292fc82a"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

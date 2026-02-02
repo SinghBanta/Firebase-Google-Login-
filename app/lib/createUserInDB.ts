@@ -1,7 +1,6 @@
 import { doc, getDoc, setDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../firebase";
 import { User } from "firebase/auth";
-import { field } from "firebase/firestore/pipelines";
 
 export const createUserInDB = async (user: User) => {
   const userRef = doc(db, "users", user.uid);
